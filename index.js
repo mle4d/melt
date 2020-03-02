@@ -14,12 +14,12 @@ function toggleActive(e) {
 panels.forEach(panel => panel.addEventListener('click', toggleOpen));
 panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
 
-var modal = document.getElementById("Modal");
-var btn = document.getElementById("ogBtn");
+var ogModal = document.getElementById("ogModal");
+var ogbtn = document.getElementById("ogBtn");
 var span = document.getElementsByClassName("close")[0];
 
-btn.onclick = function() {
-  modal.style.display = "block";
+ogbtn.onclick = function() {
+  ogModal.style.display = "block";
 }
 span.onclick = function() {
   modal.style.display = "none";
