@@ -120,7 +120,7 @@ h1 {
  .panel3 > *:last-child { transform: translateY(100%); }  
 .panel1.open-active > *:last-child { transform: translateY(-15%); }
 .panel2.open-active > *:last-child { transform: translateY(-15%); }
-.panel3.open-active > *:last-child { transform: translateY(-15%); }
+.panel3.open-active > *:last-child { transform: translateY(0%); }
 
 .panel p {
   font-family: 'Playfair Display';
@@ -138,4 +138,42 @@ h1 {
   .panel p {
     font-size: 1em;
   }
+}
+.merch {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#ogshirt {
+  background-image: url(assets/og.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 40%;
+}
+#mintshirt {
+  background-image: url(assets/mint.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 40%;
+}
+#creepshirt {
+  background-image: url(assets/creepy.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 40%;
+}
+#shorts {
+  background-image: url(assets/shorts.png);
+  background-position: left bottom;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 40%;
 }
