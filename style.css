@@ -50,13 +50,29 @@ h1 {
 .panel1 { 
   width: 25%;
 }
+.panel1.open-active > * {
+  background-image: url(assets/meltmound.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
 .panel2 { 
-  background:#ffffff;
+  background-color:#ffffff;
   color: #fdcee2;
   width: 25%;
 }
-.panel3 {  
-  width: 25%;
+.panel2.open-active > * {
+  background-image: url(assets/vanilamelt.jpeg);
+  background-size: cover;
+}
+.panel3 {
+width: 35%;
+}
+.panel3.open-active > *  {  
+  background-image: url(assets/bigmelt.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 .panel4 { 
   background-image:url(); 
@@ -118,8 +134,8 @@ h1 {
  .panel1 > *:last-child { transform: translateY(100%); }
  .panel2 > *:last-child { transform: translateY(100%); } 
  .panel3 > *:last-child { transform: translateY(100%); }  
-.panel1.open-active > *:last-child { transform: translateY(-15%); }
-.panel2.open-active > *:last-child { transform: translateY(-15%); }
+.panel1.open-active > *:last-child { transform: translateY(0%); }
+.panel2.open-active > *:last-child { transform: translateY(0%); }
 .panel3.open-active > *:last-child { transform: translateY(0%); }
 
 .panel p {
