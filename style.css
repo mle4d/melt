@@ -164,31 +164,6 @@ width: 35%;
   flex-direction: row;
   flex-wrap: wrap;
 }
-
-#mintshirt {
-  background-image: url(assets/mint.png);
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  width: 40%;
-  height: 40%;
-}
-#creepshirt {
-  background-image: url(assets/creepy.png);
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  width: 40%;
-  height: 40%;
-}
-#shorts {
-  background-image: url(assets/shorts.png);
-  background-position: left bottom;
-  background-size: auto;
-  background-repeat: no-repeat;
-  width: 40%;
-  height: 40%;
-}
 #ogBtn {
   background-image: url(assets/og.png);
   background-position: center;
@@ -208,7 +183,63 @@ width: 35%;
   height: 70%; 
   overflow: scroll;
 }
-
+#mintBtn {
+  background-image: url(assets/mint.png);
+  background-position: center;
+  background-color: transparent;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 40%;
+}
+.mintModal {
+  display: none; 
+  position: fixed; 
+  z-index: +1; 
+  right: 3%;
+  top: 10%;
+  width: 40%; 
+  height: 70%; 
+  overflow: scroll;
+}
+#creepBtn {
+  background-image: url(assets/creepy.png);
+  background-position: center;
+  background-color: transparent;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 40%;
+}
+.creepModal {
+  display: none; 
+  position: fixed; 
+  z-index: +1; 
+  right: 3%;
+  top: 10%;
+  width: 40%; 
+  height: 70%; 
+  overflow: scroll;
+}
+#shortsBtn {
+  background-image: url(assets/shorts.png);
+  background-position: center;
+  background-color: transparent;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 40%;
+}
+.shortsModal {
+  display: none; 
+  position: fixed; 
+  z-index: +1; 
+  right: 3%;
+  top: 10%;
+  width: 40%; 
+  height: 70%; 
+  overflow: scroll;
+}
 .modal-content {
   background-color: #fdcee2;
   border: 3px solid #ffffff;
@@ -221,6 +252,30 @@ width: 35%;
 }
 #ogshirt {
   background-image: url(assets/og.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 100%;
+}
+#mintshirt {
+  background-image: url(assets/mint.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 100%;
+}
+#creepshirt {
+  background-image: url(assets/creepy.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 100%;
+}
+#shorts {
+  background-image: url(assets/shorts.png);
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
