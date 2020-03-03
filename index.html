@@ -18,45 +18,9 @@
         <p>merch</p>
         <section class="merch">
             <button id="ogBtn"></button>
-          <div id="mintshirt">
-            MinTee
-            <select>
-              <option>Size</option>
-              <option>XXL</option>
-              <option>XL</option>
-              <option>L</option>
-              <option>M</option>
-              <option>S</option>
-              <option>XS</option>
-            </select>
-            <button>Add to Cart</button>
-          </div>
-          <div id="creepshirt">
-            CreepTee
-            <select>
-              <option>Size</option>
-              <option>XXL</option>
-              <option>XL</option>
-              <option>L</option>
-              <option>M</option>
-              <option>S</option>
-              <option>XS</option>
-            </select>
-            <button>Add to Cart</button>
-          </div>
-          <div id="shorts">
-            Meltpants
-            <select>
-              <option>Size</option>
-              <option>XXL</option>
-              <option>XL</option>
-              <option>L</option>
-              <option>M</option>
-              <option>S</option>
-              <option>XS</option>
-            </select>
-            <button>Add to Cart</button>
-          </div>
+            <button id="mintBtn"></button>
+            <button id="creepBtn"></button>
+            <button id="shortsBtn"></button>
         </section>
       </div>
       <div class="panel panel4">
@@ -103,7 +67,93 @@
             <span class="close">&times;</span>
           </div>
           </div>
-
+          <div id="mintModal" class="mintModal">
+              <div class="modal-content">
+                  <div id="mintshirt">
+                  </div>
+                  <section class="merchOptions">
+                      <h2 class="merchName">MinTee</h2>
+                      <select>
+                        <option>Size</option>
+                        <option>XXL</option>
+                        <option>XL</option>
+                        <option>L</option>
+                        <option>M</option>
+                        <option>S</option>
+                        <option>XS</option>
+                      </select>
+                      <form class="fit">
+                      <h3>Fit</h3>
+                      <input type="radio" id="male" value="male">
+                      <label for="male">Male</label><br>
+                      <input type="radio" id="female" value="female">
+                      <label for="female">Female</label><br>
+                      <input type="radio" id="youth" value="youth">
+                      <label for="other">Youth</label>
+                      </form>
+                      <button id="addToCart">Add to Cart</button>
+                    </section>
+                <span class="close">&times;</span>
+              </div>
+              </div>
+              <div id="creepModal" class="creepModal">
+                  <div class="modal-content">
+                      <div id="creepshirt">
+                      </div>
+                      <section class="merchOptions">
+                          <h2 class="merchName">Creep Tee</h2>
+                          <select>
+                            <option>Size</option>
+                            <option>XXL</option>
+                            <option>XL</option>
+                            <option>L</option>
+                            <option>M</option>
+                            <option>S</option>
+                            <option>XS</option>
+                          </select>
+                          <form class="fit">
+                          <h3>Fit</h3>
+                          <input type="radio" id="male" value="male">
+                          <label for="male">Male</label><br>
+                          <input type="radio" id="female" value="female">
+                          <label for="female">Female</label><br>
+                          <input type="radio" id="youth" value="youth">
+                          <label for="other">Youth</label>
+                          </form>
+                          <button id="addToCart">Add to Cart</button>
+                        </section>
+                    <span class="close">&times;</span>
+                  </div>
+                  </div>
+                  <div id="shortsModal" class="shortsModal">
+                      <div class="modal-content">
+                          <div id="shorts">
+                          </div>
+                          <section class="merchOptions">
+                              <h2 class="merchName">Melt Shorts</h2>
+                              <select>
+                                <option>Size</option>
+                                <option>XXL</option>
+                                <option>XL</option>
+                                <option>L</option>
+                                <option>M</option>
+                                <option>S</option>
+                                <option>XS</option>
+                              </select>
+                              <form class="fit">
+                              <h3>Fit</h3>
+                              <input type="radio" id="male" value="male">
+                              <label for="male">Male</label><br>
+                              <input type="radio" id="female" value="female">
+                              <label for="female">Female</label><br>
+                              <input type="radio" id="youth" value="youth">
+                              <label for="other">Youth</label>
+                              </form>
+                              <button id="addToCart">Add to Cart</button>
+                            </section>
+                        <span class="close">&times;</span>
+                      </div>
+                      </div>
 <script src="index.js">
 </script>
 </body>
