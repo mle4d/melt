@@ -1,16 +1,13 @@
 const panels = document.querySelectorAll('.panel');
 
-
 function toggleOpen() {
   this.classList.toggle('open');
 }
-
 function toggleActive(e) {
   if (e.propertyName.includes('flex')) {
     this.classList.toggle('open-active');
   }
 }
-
 panels.forEach(panel => panel.addEventListener('click', toggleOpen));
 panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
 
@@ -71,15 +68,3 @@ window.onclick = function(event) {
     shortsModal.style.display = "none";
   }
 }
-// span.onclick = function() {
-//   ogModal.style.display = "none";
-// }
-// span2.onclick = function() {
-//   mintModal.style.display = "none";
-// }
-// span3.onclick = function() {
-//   creepModal.style.display = "none";
-// }
-// span4.onclick = function() {
-//   shortsModal.style.display = "none";
-// }
