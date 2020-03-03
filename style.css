@@ -65,7 +65,7 @@ h1 {
   background-size: cover;
 }
 .panel3 {
-width: 35%;
+width: 25%;
 }
 .panel3.open-active > *  {  
   background-image: url(assets/meltcloseup.jpg);
@@ -159,9 +159,10 @@ width: 35%;
 }
 .merch {
   display: flex;
-  width: 80%;
+  width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 .btn {
   background-position: center;
@@ -191,5 +192,5 @@ width: 35%;
   background-position: left;
   background-size: 168%;
   width: 35%;
-  height: 70%;
+  height: 40%;
 }
