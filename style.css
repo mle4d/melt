@@ -24,7 +24,7 @@ h1 {
   overflow: hidden;
   display: flex;
   width: 100%;
-  position: fixed;
+  /* position: fixed; */
   top: 0%;
 }
 
@@ -47,7 +47,7 @@ h1 {
 }
 
 .panel1 { 
-  width: 25%;
+  /* width: 25%; */
 }
 .panel1.open-active > * {
   background-image: url(assets/meltmound.png);
@@ -61,13 +61,13 @@ h1 {
   width: 25%;
 }
 .panel2.open-active > * {
-  background-image: url(assets/vanilamelt.jpeg);
+  background-image: url(assets/meltmenu.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: bottom;
 }
 .panel3 {
-width: 25%;
+/* width: 25%; */
 }
 .panel3.open-active > *  {  
   background-image: url(assets/meltcloseup.jpg);
@@ -133,31 +133,19 @@ width: 25%;
       display: none;
       transition: transform 0.5s; } 
  .panel1 > *:last-child { transform: translateY(100%); }
- .panel2 > *:last-child { transform: translateY(100%); } 
  .panel3 > *:last-child { transform: translateY(100%); }  
 .panel1.open-active > *:last-child { transform: translateY(0%); }
-.panel2.open-active > *:last-child { transform: translateY(0%); }
 .panel3.open-active > *:last-child { transform: translateY(0%); }
 
 .panel p {
   font-family: 'Playfair Display';
   font-size: 2em;
-  text-align: left;
+  text-align: center;
   transform: rotate(-90deg);
-  /* padding: 50px; */
-}
-.panel3.open {
-  flex: 15;
-  font-size: 20px;
 }
 .panel.open {
   flex: 15;
   font-size: 20px;
-}
-@media only screen and (max-width: 600px) {
-  .panel p {
-    font-size: 1em;
-  }
 }
 .merch {
   display: flex;
