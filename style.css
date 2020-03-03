@@ -50,8 +50,8 @@ h1 {
   /* width: 25%; */
 }
 .panel1.open-active > * {
-  background-image: url(assets/meltmound.png);
-  background-size: 100%;
+  background-image: url(assets/aboutmelt.png);
+  background-size: 90%;
   background-repeat: no-repeat;
   background-position: bottom;
 }
