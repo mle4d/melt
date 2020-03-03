@@ -24,14 +24,14 @@ h1 {
   overflow: hidden;
   display: flex;
   width: 100%;
-  /* position: fixed; */
+  position: fixed;
   top: 0%;
 }
 
 .panel {
   color: white;
   text-align: left;
-  /* align-items: center; */
+  align-items: center;
   transition:
     font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
     flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
@@ -47,7 +47,7 @@ h1 {
 }
 
 .panel1 { 
-  /* width: 25%; */
+  width: 25%;
 }
 .panel1.open-active > * {
   background-image: url(assets/aboutmelt.png);
@@ -67,7 +67,7 @@ h1 {
   background-position: bottom;
 }
 .panel3 {
-/* width: 25%; */
+width: 25%;
 }
 .panel3.open-active > *  {  
   background-image: url(assets/meltcloseup.jpg);
@@ -122,7 +122,7 @@ h1 {
   align-items: center;
 }
 
-/* .panel > *:first-child { transform: translateY(70%); } */
+.panel > *:first-child { transform: translateY(70%); }
  .panel1.open-active > *:first-child {
   display: none;
   transition: transform 0.5s; } 
