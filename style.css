@@ -62,7 +62,9 @@ h1 {
 }
 .panel2.open-active > * {
   background-image: url(assets/vanilamelt.jpeg);
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 .panel3 {
 width: 25%;
@@ -125,7 +127,7 @@ width: 25%;
   display: none;
   transition: transform 0.5s; } 
   .panel2.open-active > *:first-child {
-    display: none;
+   display: none;
     transition: transform 0.5s; } 
     .panel3.open-active > *:first-child {
       display: none;
