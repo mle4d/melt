@@ -121,8 +121,6 @@ width: 25%;
   justify-content: center;
   align-items: center;
 }
-
-.panel > *:first-child { transform: translateY(70%); }
  .panel1.open-active > *:first-child {
   display: none;
   transition: transform 0.5s; } 
